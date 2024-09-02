@@ -1,3 +1,63 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* Navbar */
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+@media (max-width:786px){
+    .nav-bar{
+        flex-direction: column;
+        gap: 3px;
+        padding: 5px;
+    }
+}
+
+
+/* Hero */
+.hero{
+    background-image: url(./assets/hero.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 350px;
+}
+
+/* Explore Foods */
+.pizza{
+    height: 41vh;
+    border-radius: 10px;
+}
+.pizza:hover{
+    box-shadow: 0PX 3PX rgb(227, 194, 194);
+    transform: scale(1.01);
+    transition: all 0.5s linear;
+}
+.pizza img {
+    width: 300px;
+    border-radius: 10px;
+}
+.pizza p{
+    position: relative;
+    bottom: 30px;
+}
+
+
+/* Navbar */
+.navlink{
+    color: rgb(252, 0, 0);
+    text-decoration: none;
+
+}
+.navlink:hover{
+    text-decoration: underline;
+    color:rgb(167, 24, 24);
+}

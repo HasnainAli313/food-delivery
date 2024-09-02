@@ -3,11 +3,11 @@ import icon from "../assets/icons8-pizza-32.png"
 function Navbar() {
   return (
     <nav className='nav-bar'>
-        <div  className=' d-flex gap-2'>
+        <div  className=' flex gap-2'>
             <img src={icon} alt="" />
             <h6>Pizza Delivery</h6>
         </div>
-        <ul className='d-flex gap-3  p-3 list-unstyled'>
+        <ul className='flex gap-3  p-3 '>
             <li>
                 <a className='navlink' href='#'>Home</a>
             </li>
