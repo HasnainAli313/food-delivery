@@ -6,7 +6,7 @@ function ExploreFoods() {
   return (
     <>
     <section id="about">
-        <h3 className='text-center p-5 '>Explore Foods</h3>
+        <h1 className=' text-xl font-semibold text-center p-5 '>Explore Foods</h1>
     <div className='explore-food flex flex-wrap md:gap-16 justify-around p-3  '>
        <div className=' text-center text-white rounded-3 pizza '>
         <img src={img1} alt="" />

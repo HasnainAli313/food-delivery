@@ -9,7 +9,7 @@ import img6 from "../assets/6.jpg"
 function FoodMenu() {
   return (
     <section id='foods' className='bg-[#F8F9FA]  '>
-        <h3 className='text-center  mt-10 p-5 '>Food Menu</h3>
+        <h1 className=' text-xl font-semibold text-center  mt-10 p-5 '>Food Menu</h1>
         <div >
         <div className='food-menu flex  md:flex-row flex-col  justify-center md:justify-evenly  flex-wrap '>
           <Cart foodTitle="Margherita" price="$2.5" image={img1}/>
