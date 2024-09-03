@@ -1,7 +1,7 @@
 function Cart(props) {
   return (
     <>
-          <div className='bg-white   w-[45%] rounded-md flex gap-4 m-1   p-5 '>
+          <div className='bg-white   md:w-[45%] rounded-md flex gap-4 m-1   p-5 '>
                 <div>
                     <img style={{height:"90px",width:"90px" , borderRadius:"10px"}} src={props.image} alt="" />
                 </div>

@@ -5,7 +5,7 @@ import img3 from "../assets/pizza3.jpg"
 function ExploreFoods() {
   return (
     <>
-    <section>
+    <section id="about">
         <h3 className='text-center p-5 '>Explore Foods</h3>
     <div className='explore-food flex flex-wrap md:gap-16 justify-around p-3  '>
        <div className=' text-center text-white rounded-3 pizza '>

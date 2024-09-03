@@ -8,10 +8,10 @@ import img6 from "../assets/6.jpg"
 
 function FoodMenu() {
   return (
-    <section className='bg-[#F8F9FA]  '>
+    <section id='foods' className='bg-[#F8F9FA]  '>
         <h3 className='text-center  mt-10 p-5 '>Food Menu</h3>
-        <div className=' '>
-        <div className='food-menu flex  justify-evenly  flex-wrap '>
+        <div >
+        <div className='food-menu flex  md:flex-row flex-col  justify-center md:justify-evenly  flex-wrap '>
           <Cart foodTitle="Margherita" price="$2.5" image={img1}/>
           <Cart foodTitle="Pizzette Montanare" price="$3.6" image={img2}/>
           <Cart foodTitle="Quattro Formaggi" price="$4.6" image={img3}/>

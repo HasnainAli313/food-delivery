@@ -7,6 +7,48 @@
     padding: 0px;
     box-sizing: border-box;
 }
+html{
+  scroll-behavior: smooth;
+}
+/* Hamburger */
+.nav-bar {
+    position: relative;
+  }
+  
+  .hamburger {
+    display: none;
+    font-size: 24px;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .nav-bar ul {
+    display: flex;
+  }
+  
+  .nav-bar ul.open {
+    display: block;
+  }
+  
+  .navlink {
+    text-decoration: none;
+    color: black;
+    padding-bottom: 5px;
+  }
+  
+  @media (max-width: 768px) {
+    .nav-bar ul {
+      display: none;
+      flex-direction: column;
+    }
+  
+    .hamburger {
+      display: block;
+    }
+  }
+  
+  
 /* Navbar */
 .nav-bar{
     display: flex;
